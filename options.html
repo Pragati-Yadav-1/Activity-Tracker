@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Activity Tracker Options</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Activity Tracker Options</h1>
+  <label for="restricted-websites">Restricted Websites (comma-separated):</label>
+  <input type="text" id="restricted-websites" placeholder="example.com, anotherexample.com">
+  <label for="time-limit">Time Limit per Website (minutes):</label>
+  <input type="number" id="time-limit" placeholder="30">
+  <button id="save-options">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
