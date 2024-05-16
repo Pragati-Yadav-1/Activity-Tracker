@@ -7,7 +7,7 @@ This is a Chrome extension to track the time you spend on each website.
 1. **Download the extension files**:
    - Clone the repository or download it as a ZIP file.
    ```bash
-   git clone https://github.com/your-username/activity-tracker.git
+   git clone https://github.com/pragati-yadav-1/activity-tracker.git
 
  2  Extract the ZIP file (if you downloaded it).
 
